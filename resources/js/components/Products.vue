@@ -7,4 +7,6 @@
 
     {{name}}
     <input type="text" v-model="name">
+
+
 </template>
