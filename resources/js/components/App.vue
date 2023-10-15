@@ -1,29 +1,22 @@
 <template>
 
-    <h2 style="width: 100%;height: 500px;background-color: rgba(2, 56, 2, 0.1);border-radius: 7px; font-size: 30px;text-align: center;">
+        <h2>Escolha a empresa</h2>
+        <button @click="Padaria">Padaria bom dia</button>
+        <button @click="Estacao">Estacao</button>
 
-        Data para busca
-
-        <VueDatePicker v-model="date" range auto-range="" style="width: 400px;height: 50px;top: 15%;left: 38%;"/>
-     </h2>
 
 </template>
 
-<script>
-import VueDatePicker from '@vuepic/vue-datepicker';
-import '@vuepic/vue-datepicker/dist/main.css'
-
+<script >
 export default {
-  components: { VueDatePicker },
-  data() {
-    return {
-      date: null,
-    };
-  }
-}
+  methods: {
+    Padaria() {
+      window.location.href = '/products'; // Substitua pela URL correspondente
+    },
+    Estacao() {
+      window.location.href = '/estacao'; // Substitua pela URL correspondente
+    },
+  },
+};
 </script>
-<script setup>
-import { ref } from 'vue';
 
-const date = ref();
-</script>

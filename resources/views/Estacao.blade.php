@@ -1,7 +1,8 @@
 @extends('master')
 
 @section('content')
-<h2>Padaria bom dia</h2>
- <Products />
+
+<h2>Estação</h2>
+ <Estacao />
 @endsection
 
