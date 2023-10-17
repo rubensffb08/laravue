@@ -10,6 +10,6 @@ const app = createApp();
 
 app.component('app', App);
 app.component('products', Products);
-app.component('estacao', Products);
+app.component('estacao', Estacao);
 
 app.mount('#app');
