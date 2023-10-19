@@ -1,7 +1,9 @@
 @extends('master')
 
 @section('content')
-<h2>Padaria bom dia</h2>
+<h2 style="height: 100px;
+ background-color: rgba(7, 59, 20, 0.39);
+border-radius: 7px; font-size: 70px; text-align: center;">Padaria bom dia</h2>
  <Products />
 @endsection
 
