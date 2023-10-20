@@ -24,7 +24,7 @@ export default {
 
                 Data para busca
 
-                <VueDatePicker v-model="date" range style="width: 400px;height: 50px;top: 15%;left: 38%;"/>
+                <VueDatePicker v-model="date"  range style="width: 400px;height: 50px;top: 15%;left: 38%;"/>
 
             </h2>
             {{ date }}
