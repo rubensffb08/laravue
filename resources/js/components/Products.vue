@@ -45,7 +45,7 @@ export default {
 
             <input type='button' @click='recordByID()' value='Buscar'>
 
-            <table border='1' width='80%' style='border-collapse: collapse;'>
+            <table border='2' width='80%' style='border-collapse: collapse;'>
      <tr>
        <th>ingrediente1</th>
        <th>ingrediente2</th>
@@ -71,4 +71,5 @@ export default {
             {{ date }}
 
         </template>
+
 
